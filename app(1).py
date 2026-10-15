@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from datetime import datetime, timedelta
-from database import conectar, crear_tablas
+from database(1) import conectar, crear_tablas
 from parts import agregar_parte, buscar_por_codigo
 from qr_module import generar_qr, leer_qr_desde_bytes, crear_contenido_qr
 from vehicles import registrar_vehiculo, buscar_vehiculo, historial
